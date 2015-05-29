@@ -59,4 +59,6 @@ set fileencodings=uft-8,gbk "使用utf-8或gbk打开文件
 set hls                     "检索时高亮显示匹配项
 set helplang=cn             "帮助系统设置为中文
 set foldmethod=syntax       "代码折叠
+nmap <S-Enter> O<Esc>       "插入一行不进入插入模式
+nmap <CR> o<Esc>            "在当前行前插入
 ""}}
