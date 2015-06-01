@@ -45,7 +45,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker encode64 mvn pip repo sudo)
+plugins=(git docker encode64 mvn pip repo sudo autojump)
 
 # User configuration
 
@@ -78,6 +78,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+# Use Vim 7.4 
+alias vim="/usr/local/bin/vim"
+alias vi="vim"
 export MAVEN_HOME="/Users/Liu/Dropbox/Packages/apache-maven-3.3.3"
+export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$PATH:$MAVEN_HOME/bin

@@ -62,3 +62,6 @@ set foldmethod=syntax       "代码折叠
 nmap <S-Enter> O<Esc>       "插入一行不进入插入模式
 nmap <CR> o<Esc>            "在当前行前插入
 ""}}
+if $TMUX == ''
+  set clipboard+=unnamed
+endif
