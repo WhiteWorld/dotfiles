@@ -91,3 +91,6 @@ export SENCHA_CMD_3_0_0="/opt/Sencha/Cmd/5.1.3.61"
 export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/Liu/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
+# Go
+export GOPATH=/Users/Liu/Projects/My/go
+export PATH=$PATH:$GOPATH/bin
