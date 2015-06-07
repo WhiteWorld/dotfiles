@@ -45,7 +45,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker encode64 mvn pip repo sudo autojump)
+plugins=(brew git docker encode64 mvn pip repo sudo autojump)
 
 # User configuration
 
@@ -84,3 +84,10 @@ alias vi="vim"
 export MAVEN_HOME="/Users/Liu/Dropbox/Packages/apache-maven-3.3.3"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$PATH:$MAVEN_HOME/bin
+export PATH=/opt/Sencha/Cmd/5.1.3.61:$PATH
+export SENCHA_CMD_3_0_0="/opt/Sencha/Cmd/5.1.3.61"
+
+# Docker
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/Liu/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
