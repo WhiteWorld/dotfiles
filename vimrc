@@ -26,6 +26,7 @@ Plugin 'gmarik/Vundle.vim'
 " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
 Plugin 'fatih/vim-go'
+Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
