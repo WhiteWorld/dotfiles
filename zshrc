@@ -45,7 +45,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew git docker encode64 mvn pip repo sudo autojump)
+plugins=(brew git docker encode64 mvn pip repo sudo autojump vi-mode)
 
 # User configuration
 
