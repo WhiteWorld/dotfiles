@@ -45,7 +45,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew git docker encode64 mvn pip repo sudo autojump vi-mode)
+plugins=(brew git docker encode64 mvn pip repo sudo autojump sublime)
 
 # User configuration
 
@@ -94,3 +94,10 @@ export DOCKER_TLS_VERIFY=1
 # Go
 export GOPATH=/Users/Liu/Projects/My/go
 export PATH=$PATH:$GOPATH/bin
+
+# Bin
+export PATH=$PATH:$HOME/bin
+
+export ANDROID_HOME=/Users/Liu/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
+#export PATH=$PATH:/Applications/Android\ Studio.app/Contents/gradle/gradle-2.2.1/bin
